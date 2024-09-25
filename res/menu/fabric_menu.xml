@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/menu_about"
+        android:title="@string/menu_about"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView" />
+    
+    <item android:id="@+id/menu_rename_fabric"
+        android:title="@string/menu_rename_fabric"
+        android:orderInCategory="110"
+        android:showAsAction="collapseActionView" />
+    
+    <item android:id="@+id/menu_delete_fabric"
+        android:title="@string/menu_delete_fabric"
+        android:orderInCategory="120"
+        android:showAsAction="collapseActionView" />
+
+</menu>

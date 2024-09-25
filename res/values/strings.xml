@@ -1,0 +1,64 @@
+<resources>
+
+    <string name="app_name">Cut Order Plan Pro</string>
+    <string name="appKeyAmazon">da0abad68d1640fd818c3924f5c65cee</string>
+    <string name="hello_world">Loading&#8230;</string>
+    <string name="title_activity_main">Cut Order Plan Pro</string>
+    
+    <string name="launch_new_project">New Project</string>
+    <string name="launch_existing">Existing</string>
+    
+    <string name="style_detail_max_plies">Max Plies/Lay</string>
+    <string name="style_detail_max_garment">Garment/Ply</string>
+    <string name="style_detail_fabric">Fabric Detail</string>
+    <string name="style_detail_add_fabric">Add Fabric</string>
+    <string name="style_detail_calculate">Calculate</string>
+    
+    <string name="fabric_detail_contigency">Contingency</string>
+    <string name="fabric_detail_sizes">Sizes</string>
+    <string name="fabric_detail_add_size">Add New Size</string>
+    <string name="fabric_detail_total">Total</string>
+    
+    <string name="add_size_dialog_name">Size Name</string>
+    <string name="add_size_dialog_quantity">Quantity</string>
+    <string name="add_size_dialog_end_bit">End Bits</string>
+    <string name="add_size_dialog_cuttable">Cuttable</string>
+    
+    <string name="mkr_result">Result</string>
+    <string name="mkr_pdf">Generate PDF Report</string>
+    <string name="mkr_plies">Plies</string>
+    <string name="mkr_brek">Break Up</string>
+    <string name="mkr_sizes">Sizes</string>
+    <string name="mkr_colon">:</string>
+    
+    <string name="new_size">Add New Size</string>
+    <string name="edit_size">Edit Size</string>
+    <string name="delete_size">Delete</string>
+    <string name="done_size">Done</string>
+    
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_delete_style">Delete Style</string>
+    <string name="menu_rename_style">Rename Style</string>
+    <string name="menu_delete_fabric">Delete Fabric</string>
+    <string name="menu_rename_fabric">Rename Fabric</string>
+    
+    <string name="free_versios_plsBuy">Please buy license to unlock App ($10 per license).</string>
+    <string name="free_versios_stepOne">Step 1</string>
+    <string name="free_versios_enterMail">Email ID:</string>
+    <string name="free_versios_stepTwo">Step 2</string>
+    <string name="free_versios_hitBuy">Buy License by clicking "Buy Now" button.</string>
+    <string name="free_versios_buyNow">Buy Now</string>
+    <string name="free_versios_stepThree">Step 3</string>
+    <string name="free_versios_actiDetail">Hit "Activate Now" button to check license and activate the APP.</string>
+    <string name="free_versios_activate">Activate Now</string>
+    <string name="free_versios_alternative">Alternative/Transactoin ID</string>
+    <string name="free_versios_alt_detail">If you have updated or formatted your device, enter transaction id and hit "Check Now" button.</string>
+    <string name="free_versios_check_now">Check Now</string>
+    
+    <string name="about_logo">Logo</string>
+    <string name="about_detail">Cut Order Plan Pro is a tool which creates cut plan for fabric cutting to be used in garment industry.</string>
+    <string name="about_credit">Credit: K.K.Agrawal</string>
+    <string name="about_email">Email: kaushal.kumar86@gmail.com</string>
+
+</resources>

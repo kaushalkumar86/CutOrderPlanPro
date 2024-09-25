@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:versionCode="7" 
+    android:versionName="8.19.102" 
+    package="com.cut.order.plan.pro">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="19"/>
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+
+    <application 
+        android:icon="@drawable/icon" 
+        android:label="@string/app_name" 
+        android:name="MainApp" 
+        android:theme="@android:style/Theme.Holo"
+        android:allowBackup="false" >
+        
+        <meta-data android:name="com.amazon.mobile.sdk.plugin" android:value="identity"/>
+        
+        <activity android:configChanges="keyboard|orientation" android:label="@string/title_activity_main" android:name=".LaunchScreenActivity" android:screenOrientation="nosensor" android:theme="@android:style/Theme.Holo.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|orientation" android:name="FabricDetailActivity" android:screenOrientation="nosensor"/>
+        <activity android:configChanges="keyboard|orientation" android:name="StyleDetailActivity" android:screenOrientation="nosensor"/>
+        <activity android:configChanges="keyboard|orientation" android:name="MarkerResultActivity" android:screenOrientation="nosensor"/>
+        <activity android:configChanges="keyboard|orientation" android:name="MarkerResultDetailActivity" android:screenOrientation="nosensor"/>
+        <activity android:configChanges="keyboard|orientation" android:name="OpenPDFActivity" android:screenOrientation="nosensor"/>
+        <activity android:configChanges="keyboard|orientation" android:name="AboutActivity" android:screenOrientation="nosensor" android:theme="@android:style/Theme.Holo.NoActionBar"/>
+        
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.amazon.device.ads.AdActivity"/>
+    </application>
+    
+</manifest>
